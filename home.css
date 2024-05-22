@@ -1,0 +1,277 @@
+body{
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /* overflow-x: hidden; */
+}
+.icon_button{
+    width: 80px;
+}
+.div1{
+    
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 100vh;
+}
+.icon_img{
+    height: 20px;
+}
+.d2{
+  margin: auto;
+}
+.span1{
+    font-size: 18px;
+    /* padding-left: 20px; */
+    cursor: pointer;
+    /* margin-right: 2rem; */
+
+}
+
+.navbar{
+    width: 100%;
+}
+
+.overlay {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-top: 45px;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: white;
+  overflow-y: hidden;
+  transition: 0.4s;
+  display: flex;
+}
+.img2_1{
+  height: 100px;
+  width : 180px;
+}
+.ul1{
+  padding-top: 10px;
+  margin-top: 40px;
+  list-style-type: none;
+  font-family: d;
+}
+li{
+  padding-top: 10px;
+}
+.a1{
+  font-size: 15px;
+}
+button{
+  border: 0px;
+  border-radius: 3px;
+  height: 40px;
+  width: 300px;
+  margin: 0px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.mainimg1{
+    background-image: url('Tesla1.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+    height: 100vh;
+}
+.mainimg2{
+    height: 100vh;
+    background: url('tesla2.avif') no-repeat center center;
+    background-size: cover;
+}
+.mainimg3{
+    height: 100vh;
+    background: url('tesla3.avif') no-repeat center center;
+    background-size: cover;
+}
+.mainimg4{
+    height: 100vh;
+    background: url('tesla4.avif') no-repeat center center;
+    background-size: cover;
+}
+.mainimg5{
+    height: 100vh;
+    background: url('tesla5.avif') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    font-size: 40px;
+    
+}
+.mainimg6{
+    height: 100vh;
+    background: url('tesla6.avif') no-repeat center center;
+    background-size: cover;
+}
+.mainimg7{
+    height: 100vh;
+    background: url('tesla7.avif') no-repeat center center;
+    background-size: cover;
+}
+.mainimg8{
+    height: 100vh;
+    background: url('tesla8.avif') no-repeat center center;
+    background-size: cover;
+}
+.mainimg9{
+    height: 100vh;
+    background: url('tesla9.avif') no-repeat center center;
+    background-size: cover;
+}
+
+.mainimg10{
+    background-color: black; 
+    height: 350px; 
+    font-size: 12px;
+    text-align: center;
+    color: aliceblue;
+}
+.navbar .navbar-collapse{
+    justify-content: center;
+    
+}
+.nav_icon{
+    position: relative;
+    right: 0%;
+}
+
+
+@media (max-width: 600px) {
+    .mainimg1{
+        
+        background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Mobile-Global.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        
+    }
+    .mainimg2{
+        
+        background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Mobile-LHD-v2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        
+    }
+    .mainimg3{
+        
+        background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_1700,w_800,c_fit,f_auto,q_auto:best/Homepage-Model-X-Mobile-LHD_001);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        
+    }
+    .mainimg4{
+        
+        background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Mobile-LHD-6.22.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        
+    }
+    .mainimg5{
+        
+        background-image: url(https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        
+    }
+    .mainimg6{
+        
+        background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        
+    }
+    .mainimg7{
+        
+        background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_2100,w_800,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Mobile);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        
+    }
+    .mainimg8{
+        
+        background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_2100,w_800,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Mobile);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        
+    }
+    .mainimg9{
+        
+        background-image: url(tesla9.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        
+    }
+    .mainimg10{
+        height: 100vh;
+        
+    }
+    
+    .button_div{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .span1{
+        margin-left: 0px;
+    }
+    /* .Cybertruck{
+        margin-left: 200px;
+        height: 100px;
+    } */
+    .li_logo{
+        margin-left: 0px;
+    }
+    .li_vehicle{
+        margin-left: 0px;
+    }
+    
+
+}
+
+.button_div{
+    height: 60px;
+    margin-top: 330px;
+    display: flex;
+    
+    place-items: center;
+    justify-content: center;
+} 
+
+/* .cybertruck{
+    font-size: 40px;
+} */
+@media (max-width:999px) {
+    .nav_icon{
+        display: none;
+    }
+}
+
